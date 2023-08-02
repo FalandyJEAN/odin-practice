@@ -1,3 +1,3 @@
-# odin-pratique
+# odin-practice
 Practice
 exercice CSS
