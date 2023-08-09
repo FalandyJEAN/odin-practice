@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 5px solid rgb(8, 163, 8);
+    background:#e3eeec;
+}
+
+.container{
+    display: flex;
+    gap: 8px;
+    background: #abdfda;
+    margin: 20px;
+    border: 5px solid blue;
+}
+
+#tet{
+    height: 230px;
+    display: flex;
+    padding: 10px;
+}
+
+
+#tet .container-interne{
+    background: rgb(179, 138, 133) !important;
+    height: 200px;
+    flex: 1;
+    border: 4px solid salmon;
+    display: flex;
+    padding: 5px;
+}
+
+#tet .container-interne .item{
+    background: palevioletred;
+    height: 182px;
+    border: 2px solid red;
+    flex: 1;
+}
+
+#mitan-goch{
+    height:423px;
+    border: 5px solid red !important;
+    background: salmon !important;
+    width: 890px;
+}
+
+#pye{
+    height: 200px;
+    display: flex;
+    padding: 10px;
+}
+
+#pye .pye-1{
+    flex: 1;
+    background: rgb(163, 163, 173);
+    height: 170px;
+    border: 5px solid magenta;
+}
+
+
+#pye .pye-2{
+    flex: 1;
+    background: rgb(179, 138, 133) !important;
+    border: 5px solid salmon;
+    height: 170px;
+    flex: 0.4;
+}
+
+
+#pye .pye-3{
+    flex: 1;
+    background: rgb(179, 138, 133) !important;
+    border: 5px solid salmon;
+    height: 170px;
+    flex: 0.4;
+}
+
+
+#pye .pye-4{
+    flex: 1;
+    background: rgb(139, 139, 150);
+    height: 170px;
+    border: 5px solid magenta;
+}
+
+
+#anle-dwat{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+#anle-dwat{
+    height: 200px;
+    width: 884px;
+    float: right;
+    position: absolute;
+    top: 258px;
+    left: 919px;
+    background:salmon;
+    border: 5px solid red !important;
+}
+
+#anba-dwat{
+    height: 200px;
+    width: 884px;
+    float: right;
+    position: absolute;
+    top: 476px;
+    left: 919px;
+    background: salmon;
+    border: 5px solid red !important;
+}
