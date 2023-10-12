@@ -6,47 +6,71 @@
     <title>Document</title>
     <style>
         body{
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            font-family: monospace;
+        }
+        
+        .container  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: papayawhip;
+    
         }
 
-        .container{
+        #logo {
+        font-size: 48px;
+        font-weight: 900;
+        color: tomato;
+        background: white;
+        padding: 4px 32px;
+        margin: 10px;
+        }
+
+        div ul {
+        list-style-type: none;
+
+        }
+
+        div a {
+        font-size: 22px;
+        background: white;
+        padding: 8px;
+        text-decoration: none;
+        }
+
+        div{
             display: flex;
-            background-color: gray;
-            flex-direction: row;
-            width: 100%;
-            height: 100px;
-            justify-content: space-between;
-            align-items: center;
-            margin: auto;
         }
-
-        .container div{
-            align-items: center;
-            justify-content: center;
-            margin: 10px;
-        }
-
-        .container #logo{
+        
+        #first-div{
             display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: blue;
-            width: 100px;
-            height: 90px;
+            margin-left: -30px;
         }
+
+        #end-div{
+            display: flex;
+            margin-right: 10px;
+        }
+
+
     </style>
 </head>
 <body>
     <section class="container">
-        <div>one</div>
-        <div>Two</div>
-        <div>Three</div>
+        <div id="first-div">
+            <ul><a href="#">One</a></ul>
+            <ul><a href="#">Two</a></ul>
+            <ul><a href="#">Three</a></ul>
+        </div>
         <div id="logo">Logo</div>
-        <div>Four</div>
-        <div>Five</div>
-        <div>Six</div>
+        <div id="end-div">
+            <ul><a href="#">Four</a></ul>
+            <ul><a href="#">Five</a></ul>
+            <ul><a href="#">Six</a></ul>
+        </div>
     </section>
 </body>
 </html>
